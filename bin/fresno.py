@@ -14,7 +14,7 @@ def main(args):
     if args.twitter:
         FresnoPython.open_twitter()
 
-    print(FresnoPython.message())
+    print((FresnoPython.message()))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some integers.')
